@@ -15,7 +15,10 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 # Use devise gem
 gem 'devise'
-
+# Use stripe for handling payments
+gem 'stripe'
+# Use figaro to hide secret keys
+gem 'figaro'
 # Use bootstrap library
 gem 'bootstrap-sass'
 # Use font awesome
